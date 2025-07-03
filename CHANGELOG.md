@@ -1,3 +1,8 @@
+## 5.6.3
+
+- chore: upgraded `com.android.billingclient:billing` to `7.1.1` for compatibility with the latest Google Play Billing Library.
+- fix: replaced deprecated `ProrationMode` constants and `setReplaceProrationMode` with `SubscriptionUpdateParams.ReplacementMode` and `setSubscriptionReplacementMode`.
+
 ## 5.6.2
 
 - fix: removed references to deprecated v1 Android embedding by @moodstubos in https://github.com/hyochan/flutter_inapp_purchase/pull/497
